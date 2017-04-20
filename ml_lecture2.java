@@ -1,6 +1,31 @@
-		2.Matlab中的保留字
+ Lecture 2: Matlab Basis
+
+	1 Matlab Desktop
+		1.文件 .mat和 .m
+			    |		\
+			  数据文件  脚本文件、函数文件
+
+		2.new>Script 和 edit命令功能一样
+		3.识别的文件：-.mat .xls .txt
+							   \ /
+							   数值（xls去掉表头）（txt用Tab键）
+
+		4.clear命令
+		5.figure命令（画图）
+
+
+	2 Command Window introduction
+		(1)交互靠：菜单、命令（指令）、程序
+		   命令 >>
+		   程序 >> 
+			 K>>
+			 
+		   变量输入：
+			erasers = 4
+			tape = 2;
+		(2)Matlab中的保留字
 			for switch otherwise global 
-		3.matlab的预定义变量
+		(3)matlab的预定义变量
 			变量名       含义
 			inf或Inf     无穷大，如1/0
 			eps          机器零阈值
@@ -25,3 +50,9 @@
 			 f=[CC(2,:);CC(3,:)]
 			 s=1:9
 			 s=1:3:9
+			 
+	3 
+
+
+
+
