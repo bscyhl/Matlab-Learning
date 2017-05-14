@@ -76,3 +76,4 @@ Lecture 4:String and Cell
 		strrep		用一个字符串替换另一个字符串
 		strtok		在一个字符串中找出第一个标记
 	3.元胞数组
+		
