@@ -37,4 +37,30 @@ Lecture6:Matlab Drawing
 				x叉字符
 				
 				配合‘MarkerSize’加半径参数，规定数据标记的大小
+		4.网格线控制
+			grid	是否划分格线的双向切换指令
+			grid on
+			grid off
+		5.坐标形式——封闭/开启(坐标图边界是虚线还是实线)
+			box		坐标形式再封闭式和开启式之间切换指令
+			box on
+			box off
+		6.图形标识
+			title(S)			书写图名
+			xlabel(S)			横坐标轴名
+			ylabel(S)			纵坐标轴名
+			legend(S1,S2,...)	绘制曲线所用线型，色彩或数据点图例
+			text(xt,yt,S)		在xt，yt位置进行文本标识
+		7.绘图控制、双坐标、和子图
+			1.hold
+				hold on 保持之前图像不被刷新掉
+				hold off 关闭hold on的功能
+			2.plotyy
+				plotyy(x1,y1,x2,y2)
+				画出的图像有两条Y轴，一条在左，一条在右，用于单位长度很不一样的两条曲线
+			3.subplot
+				subplot(2,3,5);plot(x,y);在2x3区域的第5个子块里绘图，按行援引单下标
+				subplot('position',[0.2 0.05 0.6 0.45])其中[left bottom width height]
+				
+				
 	3.三位曲线绘图的基本操作
